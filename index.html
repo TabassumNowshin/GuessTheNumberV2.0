@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ==" crossorigin="anonymous" />
+    <style>
+        .container{
+            border: 1px groove black;
+            text-align: center;
+            font-size: larger;
+            font-family: Times New Roman;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div style="float: inline-start;">
+            &#128151;: <b id="life">3</b>        
+        </div>
+        <div style="float: inline-end;">
+            <form>    
+                <input id="res" type="submit" value="Restart! &#128260;">
+            </form>
+        </div>
+        <h4>Guess A Number!</h4>
+        <p>Can you guess the number that I have in mind? I'll give you 3 chances! Choose a number between 1 to 10.</p>
+        <form id="form">
+            <input id="input" type="text" placeholder="Enter that number here">
+            <input type="submit" id="submit" value="Check!">
+        </form>
+    </div>
+    <script src="script3.js"></script>
+</body>
+</html>
